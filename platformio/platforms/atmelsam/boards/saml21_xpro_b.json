@@ -1,0 +1,30 @@
+{
+  "build": {
+    "cpu": "cortex-m0plus",
+    "f_cpu": "48000000L",
+    "mcu": "atsaml21j18b"
+  },
+  "debug": {
+    "onboard_tools": [
+      "cmsis-dap"
+    ],
+    "openocd_chipname": "at91saml21j18"
+  },
+  "frameworks": [
+    "mbed"
+  ],
+  "name": "Atmel SAML21-XPRO-B",
+  "upload": {
+    "maximum_ram_size": 32768,
+    "maximum_size": 262144,
+    "protocol": "cmsis-dap",
+    "protocols": [
+      "cmsis-dap",
+      "blackmagic",
+      "jlink",
+      "atmel-ice"
+    ]
+  },
+  "url": "https://developer.mbed.org/platforms/SAML21-XPRO/",
+  "vendor": "Atmel"
+}

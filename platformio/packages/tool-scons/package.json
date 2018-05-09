@@ -1,0 +1,7 @@
+{
+    "name": "tool-scons",
+    "description": "SCons software construction tool",
+    "system": "*",
+    "url": "http://www.scons.org",
+    "version": "2.20501.4"
+}

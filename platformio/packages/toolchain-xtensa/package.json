@@ -1,0 +1,10 @@
+{
+    "description": "xtensa-gcc",
+    "name": "toolchain-xtensa",
+    "system": [
+        "darwin_x86_64",
+        "darwin_i386"
+    ],
+    "url": "https://github.com/jcmvbkbc/gcc-xtensa",
+    "version": "1.40802.0"
+}

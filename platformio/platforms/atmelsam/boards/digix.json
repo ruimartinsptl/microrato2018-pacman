@@ -1,0 +1,45 @@
+{
+  "build": {
+    "core": "sam",
+    "cpu": "cortex-m3",
+    "extra_flags": "-w -D__SAM3X8E__ -DARDUINO_SAM_DIGIX -DARDUINO_ARCH_SAM",
+    "f_cpu": "84000000L",
+    "hwids": [
+      [
+        "0x16D0",
+        "0x078A"
+      ]
+    ],
+    "ldscript": "flash.ld",
+    "mcu": "at91sam3x8e",
+    "usb_product": "Digistump DigiX",
+    "variant": "arduino_due_x"
+  },
+  "connectivity": [
+    "can"
+  ],
+  "debug": {
+    "openocd_chipname": "at91sam3X8E"
+  },
+  "frameworks": [
+    "arduino"
+  ],
+  "name": "Digistump DigiX",
+  "upload": {
+    "disable_flushing": true,
+    "maximum_ram_size": 28672,
+    "maximum_size": 524288,
+    "native_usb": true,
+    "protocol": "sam-ba",
+    "protocols": [
+      "sam-ba",
+      "jlink",
+      "blackmagic"
+    ],
+    "require_upload_port": true,
+    "use_1200bps_touch": true,
+    "wait_for_upload_port": true
+  },
+  "url": "http://digistump.com/products/50",
+  "vendor": "Digistump"
+}

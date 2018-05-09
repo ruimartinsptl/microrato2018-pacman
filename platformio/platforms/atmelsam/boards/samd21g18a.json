@@ -1,0 +1,45 @@
+{
+  "build": {
+    "core": "samd",
+    "cpu": "cortex-m0plus",
+    "extra_flags": "-DARDUINO_SAMD_MKR1000 -DARDUINO_ARCH_SAMD -D__SAMD21G18A__",
+    "hwids": [
+      [
+        "0x03EB",
+        "0x2111"
+      ]
+    ],
+    "ldscript": "flash_without_bootloader.ld",
+    "f_cpu": "48000000L",
+    "mcu": "atsamd21g18a",
+    "usb_product": "Atmel ATSAMW25-XPRO",
+    "variant": "w25_xplained_pro"
+  },
+  "connectivity": [
+    "wifi"
+  ],
+  "debug": {
+    "onboard_tools": [
+      "cmsis-dap"
+    ],
+    "openocd_chipname": "at91samd21g18"
+  },
+  "frameworks": [
+    "arduino",
+    "mbed"
+  ],
+  "name": "Atmel ATSAMW25-XPRO",
+  "upload": {
+    "maximum_ram_size": 32768,
+    "maximum_size": 262144,
+    "protocol": "cmsis-dap",
+    "protocols": [
+      "cmsis-dap",
+      "blackmagic",
+      "jlink",
+      "atmel-ice"
+    ]
+  },
+  "url": "https://developer.mbed.org/platforms/SAMW25-XPRO/",
+  "vendor": "Atmel"
+}

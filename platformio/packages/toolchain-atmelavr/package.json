@@ -1,0 +1,10 @@
+{
+    "description": "avr-gcc",
+    "name": "toolchain-atmelavr",
+    "system": [
+        "darwin_x86_64",
+        "darwin_i386"
+    ],
+    "url": "http://www.atmel.com/products/microcontrollers/avr/32-bitavruc3.aspx?tab=tools",
+    "version": "1.40902.0"
+}

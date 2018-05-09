@@ -1,0 +1,10 @@
+{
+    "description": "gcc-arm-embedded",
+    "name": "toolchain-gccarmnoneeabi",
+    "system": [
+        "darwin_x86_64",
+        "darwin_i386"
+    ],
+    "url": "https://launchpad.net/gcc-arm-embedded",
+    "version": "1.40804.0"
+}
