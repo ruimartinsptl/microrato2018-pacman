@@ -27,8 +27,11 @@ De forma a sermos mais eficientes, utilizamos o platformio para gerar os nossos 
 
 ### Modelos 3D
 
-Download: [https://www.thingiverse.com/thing:2939716](https://www.thingiverse.com/thing:2939716)
 ![](img/received_2032010116827157.png)
+
+Tinkercad: [https://www.tinkercad.com/users/0B3h3IggmHm-fmmf](https://www.tinkercad.com/users/0B3h3IggmHm-fmmf)
+
+Thingiverse: [https://www.thingiverse.com/thing:2939716](https://www.thingiverse.com/thing:2939716)
 
 ## Equipa
 
